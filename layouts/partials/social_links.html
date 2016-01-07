@@ -1,6 +1,15 @@
 <nav class="social-icons icons">
-<a class="fa fa-rss rss" href="/index.xml"></a>
-{{ if isset .Site.Params "twitter_username" }}
-<a class="fa fa-twitter twitter" href="https://twitter.com/{{ .Site.Params.twitter_username }}"></a>
-{{ end }}
+	{{ if isset .Site.Params "facebook_username" }}
+	<a class="fa fa-facebook" href="https://facebook.com/{{ .Site.Params.facebook_username }}"></a>
+	{{ end }}
+
+	{{ if isset .Site.Params "github_username" }}
+	<a class="fa fa-github" href="https://github.com/{{ .Site.Params.github_username }}"></a>
+	{{ end }}
+	
+	{{ if isset .Site.Params "twitter_username" }}
+	<a class="fa fa-twitter" href="https://twitter.com/{{ .Site.Params.twitter_username }}"></a>
+	{{ end }}
+
+	<a class="fa fa-rss" href="/index.xml"></a>
 </nav>
