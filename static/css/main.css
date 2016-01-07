@@ -14,7 +14,7 @@
 */
 
 body {
-  font-family: "Ubuntu", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'Arial', 'Veranda', 'Tahoma', 'Times', 'Times New Roman', 'serif';
 }
 
 html, body {
@@ -131,7 +131,7 @@ body {
 .pagination,
 .button {
   font-size: 1rem;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Arial', 'Veranda', 'Tahoma', 'Times', 'Times New Roman', 'serif';
   font-weight: 300;
   text-align: center;
 }
@@ -260,7 +260,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Arial', 'Veranda', 'Tahoma', 'Times', 'Times New Roman', 'serif';
   font-weight: 900;
   line-height: 1.2;
   margin: 0.414em 0 0.5em;
@@ -268,7 +268,7 @@ h6,
 
 .social-icons {
     padding: 0.5em 0 0 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     width: 100%;
 }
 .social-icons a.fa {
@@ -437,7 +437,7 @@ footer,
 footer .wrap {
   color: #7a7a7a;
   background-color: #fafafa;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Arial', 'Veranda', 'Tahoma', 'Times', 'Times New Roman', 'serif';
   font-weight: 300;
   clear: both;
 }
@@ -465,9 +465,6 @@ Licensed under the MIT license - http://opensource.org/license/MIT
     -webkit-transition: all .3s;
     -ms-transition: all .3s;
 }
-
-.icons a.rss { background: url(/images/icons/rss.png) left top no-repeat; }
-.icons a.twitter { background: url(/images/icons/twitter.png) left top no-repeat; }
 
 /*!
 Animate.css - http://daneden.me/animate
